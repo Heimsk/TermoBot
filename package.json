@@ -1,0 +1,26 @@
+{
+  "name": "termo",
+  "version": "1.0.0",
+  "description": "A termo game bot for Discord!",
+  "main": "dist/index.js",
+  "author": "Heimsk",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc && node dist/src/index.js --dev",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.22",
+    "axios": "^0.27.2",
+    "canvas-constructor": "^6.0.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "eris": "^0.17.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.40",
+    "eventemitter3": "^4.0.7"
+  }
+}

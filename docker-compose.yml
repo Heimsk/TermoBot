@@ -1,0 +1,13 @@
+endpoints:
+  - path: /
+    service: bot
+    port: 8080
+
+
+services:
+  bot:
+    build: bot
+    ports:
+      - 8080:8080
+    restart: always
+    env_file: .env

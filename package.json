@@ -6,8 +6,8 @@
   "author": "Heimsk",
   "license": "MIT",
   "scripts": {
-    "dev": "tsc && node dist/src/index.js --dev",
-    "start": "node src/index.js",
+    "dev": "tsc && node dist/bot/src/index.js --dev",
+    "start": "node dist/bot/src/index.js",
     "push": "tsc && cd dist && git add . && git commit -m \"👍\" && git push -u origin build",
     "pushdev": "git add . && git commit -m \"👍\" && git push -u origin dev"
   },

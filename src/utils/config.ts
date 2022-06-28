@@ -2,7 +2,7 @@ export const ClientConfig = {
   SafeEnv: {
     '$DEVMODE': process.argv.slice(2).find(n => n === '--dev') === undefined ? false : true,
     '$HOME': process.argv.slice(2).find(n => n === '--dev') === undefined ? process.cwd() : `${process.cwd()}/dist/bot`,
-    '$BASE_GUILD_ID': '867098459977941013'
+    '$BASE_GUILD_ID': process.argv.slice(2).find(n => n === '--dev') === undefined ? '991006249581678642' : '867098459977941013'
   },
   server_link: "https://discord.gg/f9BPwq9bq4",
   colors: {

@@ -11,9 +11,9 @@ export const ClientConfig = {
     green: 0x00ff00
   },
   channels: {
-    rating: '988188494641917972',
-    suggestions: '988235260531703860',
-    bugs: '988582397706633317'
+    rating: '991009618194989086',
+    suggestions: '991009591254978630',
+    bugs: '991465938237010052'
   },
   images: {
     error: 'https://media.discordapp.net/attachments/869691044432850954/869691612345794580/warning.png'
